@@ -4,3 +4,4 @@
 \.git
 \.bak
 ^Makefile$
+\.tar\.gz$

@@ -3,9 +3,6 @@ use warnings;
 
 use ExtUtils::MakeMaker;
 
-use Config;
-use ExtUtils::Depends ();
-
 # Some options behave differently on Windows
 sub WINLIKE () {
     return 1 if $^O eq 'MSWin32';
@@ -55,7 +52,7 @@ my %WriteMakefileArgs = (
     "FindBin" => 0,
     "Test::More" => "0.88",
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

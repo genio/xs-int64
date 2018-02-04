@@ -1,6 +1,6 @@
 package XS::Int64;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 our $XS_VERSION = $VERSION;
 
 use strict;

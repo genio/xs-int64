@@ -10,3 +10,4 @@ MANIFEST
 MANIFEST.SKIP
 MYMETA.json
 MYMETA.yml
+t/works.t
