@@ -1,12 +1,12 @@
-lib/XS/Int64.bs
-lib/XS/Int64.c
 lib/XS/Int64.pm
 lib/XS/Int64.xs
-lib/XS/Int64.xsc
 lib/XS/perl_math_int64.c
 lib/XS/perl_math_int64.h
 lib/XS/perl_math_int64_types.h
 lib/XS/ppport.h
 lib/XS/typemap
 Makefile.PL
-MANIFEST			This list of files
+MANIFEST
+MANIFEST.SKIP
+MYMETA.json
+MYMETA.yml

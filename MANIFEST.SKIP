@@ -1,0 +1,6 @@
+\.bs
+\.xsc
+\.git\.*
+\.git
+\.bak
+^Makefile$
