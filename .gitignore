@@ -24,3 +24,4 @@ xx*
 *.o
 lib/*.c
 lib/XS/*.c
+*.def

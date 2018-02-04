@@ -15,7 +15,7 @@ my %xsbuild = (
     XSMULTI => 1,
     XSBUILD  => {
         'lib/UV' => {
-          OBJECT => 'lib/UV$(OBJ_EXT) lib/perl_math_int64$(OBJ_EXT)',
+          OBJECT => 'lib/XS/perl_math_int64$(OBJ_EXT)',
         },
     },
     OBJECT  => '$(O_FILES)',
